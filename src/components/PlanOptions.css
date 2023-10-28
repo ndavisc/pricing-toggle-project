@@ -1,0 +1,62 @@
+.options {
+    position: relative;
+    flex: 1 1 calc(25% - 12px);
+    height: 100%;
+    width: 27%;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    text-align: left;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.options:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
+
+.options h2 {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+.options h3 {
+    padding: 10px;
+}
+.options h4 {
+    padding: 10px;
+}
+button {
+    background-color: orange;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 20px;
+    padding: 2px;
+    flex: 1 1 calc(25% - 12px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    color: black;
+}
+.profile-circle {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    background-color: green;
+}
+.small-circle {
+    position: absolute;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    background-color: blue;
+}

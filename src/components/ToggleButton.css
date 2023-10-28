@@ -1,0 +1,15 @@
+.toggle-container {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 20px;
+    padding: 2px;
+}
+toggle-btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
